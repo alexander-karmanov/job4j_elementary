@@ -15,6 +15,16 @@ public class PointTest {
         Assert.assertEquals(expected, out, 0.01);
     }
     @Test
+    public void when11to01then1() {
+        double expected = 1;
+        int x1 = 1;
+        int y1 = 0;
+        int x2 = 1;
+        int y2 = 1;
+        double out = Point.distance(x1, y1, x2, y2);
+        Assert.assertEquals(expected, out, 0.01);
+    }
+    @Test
     public void when23to25then3dot16() {
         double expected = 3.16;
         int x1 = 2;
