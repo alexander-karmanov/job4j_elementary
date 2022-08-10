@@ -16,7 +16,7 @@ public class PrimeNumberTest {
     public void when11() {
         int finish = 11;
         int result = PrimeNumber.calc(finish);
-        int expected = 6;
+        int expected = 5;
         assertThat(result).isEqualTo(expected);
     }
 
