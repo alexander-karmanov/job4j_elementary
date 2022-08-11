@@ -23,7 +23,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas0Then3() {
+    public void whenArrayHas0Then2() {
         int[] data = new int[] {7, 8, 0, 9, 5};
         int el = 0;
         int result = FindLoop.indexOf(data, el);
