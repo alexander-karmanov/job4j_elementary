@@ -14,7 +14,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenDiapasonHasNot10ThenMinus1() {
+    public void whenArrayHasNot10ThenMinus1() {
         int[] data = new int[] {5, 11, 3, 1, 0, 7};
         int el = 10;
         int result = FindLoop.indexOf(data, el);
