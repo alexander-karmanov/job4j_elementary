@@ -1,9 +1,6 @@
 package ru.job4j.array;
 
-import java.util.Arrays;
-
 public class SortSelected {
-
     public static int[] sort(int[] data) {
         for (int dataIndex = 0; dataIndex < data.length; dataIndex++) {
             int min = MinDiapason.findMin(data, dataIndex, data.length - 1);
